@@ -39,6 +39,8 @@
     <Compile Include="ShoppingDatabase.cs" />
     <Compile Include="ShoppingItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShoppingItemManager.cs" />
+    <Compile Include="ShoppingListRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="DotNetCross.Memory.Unsafe, Version=0.2.2.0, Culture=neutral, processorArchitecture=MSIL">

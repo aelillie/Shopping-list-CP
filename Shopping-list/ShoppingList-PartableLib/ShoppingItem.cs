@@ -8,6 +8,7 @@ namespace ShoppingList_PartableLib
 {
     public class ShoppingItem : RealmObject
     {
+        [PrimaryKey]
         public string Name { get; set; }
         public string Category { get; set; }
         public double Quantity { get; set; }
